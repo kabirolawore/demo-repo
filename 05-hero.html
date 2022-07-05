@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
-    <title>Accordion Component</title>
+    <title>Omnifood Hero Section</title>
 
     <style>
       /*
@@ -21,23 +21,89 @@
       10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
       */
 
-      /* 
+      /*
       MAIN COLOR: #087f5b
       GREY COLOR: #343a40
       */
 
-      * {
+      /* * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-      }
+      } */
 
       body {
-        font-family: "Inter", sans-serif;
-        color: #343a40;
-        line-height: 1;
+        font-family: "Rubik", sans-serif;
+        color: #444;
+        /* line-height: 1; */
+      }
+
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #e67e22;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 9px;
+      }
+
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <div>LOGO</div>
+        <div>NAVIGATION</div>
+      </nav>
+
+      <div>
+        <h1>A healthy meal delivered to your doorstep, every single day</h1>
+        <p>
+          The smart 365-days-per-year food subscription that will make you eat
+          healthy again. Tailored to you personal tastes and nutritional needs.
+        </p>
+        <a href="#" class="btn">Start eating well</a>
+      </div>
+    </header>
+    <section>
+      <div>
+        <h2>Some random heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab officiis
+          inventore distinctio, repellat tenetur velit, impedit autem cumque
+          accusantium aperiam reprehenderit quam ut nisi amet eius voluptates.
+          Consequatur, adipisci corporis. Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Vitae quaerat magnam quia animi suscipit
+          sint fugiat incidunt molestias quam. Facere at dicta corporis
+          molestias iure numquam consequatur illum aliquam? Architecto.
+        </p>
+      </div>
+    </section>
+    <footer></footer>
+  </body>
 </html>
