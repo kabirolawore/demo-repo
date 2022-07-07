@@ -89,11 +89,26 @@
       section {
         background-color: #e9ecef;
         padding: 40px;
+
+        /* How elements that don't fit into container appear */
+        overflow: scroll;
+
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
       }
 
       .email {
         background-color: #adb5bd;
+        height: 96px;
+        flex-shrink: 0;
+
+        /* FLEX */
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
+
       aside {
         background-color: #e9ecef;
       }
